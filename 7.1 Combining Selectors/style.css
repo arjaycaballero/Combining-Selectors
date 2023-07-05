@@ -1,0 +1,25 @@
+
+/*  Group Selectors */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child Selector */
+div > .done {
+    color: firebrick;
+}
+
+/* Descendant Selector */
+.box .list {
+    color: blue;
+}
+
+/* Chaining Selector */
+ li.done {
+    color: seagreen;
+ }
+
+/* Combining  Combiners Selector */
+ul p.done {
+    font-size: 0.5rem;
+}
